@@ -1,3 +1,5 @@
+cargo-features = ["trim-paths"]
+
 [package]
 name = "cursor-api"
 version = "0.3.6-2"
@@ -85,7 +87,6 @@ strip = true
 # panic = 'unwind'
 opt-level = 3
 trim-paths = "all"
-rustflags = ["-Cdebuginfo=0", "-Zthreads=8"]
 
 [features]
 default = ["webpki-roots"]

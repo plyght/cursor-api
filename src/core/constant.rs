@@ -107,6 +107,7 @@ def_const_models!(
 
     // Cursor 模型
     CURSOR_SMALL => "cursor-small",
+    COMPOSER_1 => "composer-1",
 
     // Google 模型
     GEMINI_2_5_PRO_PREVIEW_05_06 => "gemini-2.5-pro-preview-05-06",
@@ -608,6 +609,7 @@ create_models! {
     CURSOR => [
         ModelIds::new(CURSOR_SMALL),
         ModelIds::new(CURSOR_FAST),
+        ModelIds::new(COMPOSER_1),
     ],
 
     GOOGLE => [

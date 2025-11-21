@@ -1,3 +1,2 @@
-[unstable]
-profile-rustflags = true
-trim-paths = true
+[target.'cfg(all())']
+rustflags = ["-Cdebuginfo=0", "-Zthreads=8"]
